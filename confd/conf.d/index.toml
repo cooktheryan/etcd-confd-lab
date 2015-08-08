@@ -1,0 +1,7 @@
+[template]
+src = "index.tmpl"
+dest = "/var/www/html/index.html"
+keys = [
+        "/message",
+        "/name",
+]

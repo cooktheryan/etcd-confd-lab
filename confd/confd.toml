@@ -1,0 +1,12 @@
+confdir = "/etc/confd"
+interval = 20
+client_ca_keys=""
+client_cert = ""
+client_key = ""
+backend = "etcd"
+  nodes = [
+          "http://localhost:4001"
+]
+prefix = ""
+scheme = "http"
+log_level = "info"
